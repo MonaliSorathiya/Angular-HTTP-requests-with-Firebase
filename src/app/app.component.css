@@ -1,0 +1,56 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1; width:50%; margin-left:250px;}
+
+.titleinput[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contenttextarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.postbutton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 5px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  
+}
+.fetchbutton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:20%;
+   
+    margin-right: 3px;
+    margin-left: 14px;
+}
+.clearbutton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:20%;
+}
+.formcontainer {
+  padding: 16px;
+  
+}
