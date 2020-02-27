@@ -5,21 +5,14 @@
 <body>
   <h2 class="headingtitle">Angular: Making HTTP Requests with Firebase </h2>
 
-<form #postForm="ngForm"> 
+<form #postForm="ngForm" > 
   <div class="formcontainer">    
     <label><b>Title</b></label>
-    <input type="text" class="titleinput"/>   
+    <input type="text" class="titleinput" required/>   
     <label ><b>Content</b></label>
     <textarea id="content" class="contenttextarea" required></textarea>        
     <button type="submit" class="postbutton">Send Post</button>  
-  </div> 
-  <div>
-    <div>
-      <button class="fetchbutton">Fetch Posts</button>
-      |
-      <button class="clearbutton">Clear Posts</button>
-    </div>
-  </div>
+  </div>  
 </form>
 </body>
 </html>
