@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -9,10 +9,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent { 
 
-  constructor() {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit() {}
 
-  
+  onCreatePost(postData: { title: string; content: string }) {
+    // Send Http request
+    
+    this.http
+      .post('https://angular-sending-post-request.firebaseio.com/posts.json',postData)
+      .subscribe(responseData => {
+        console.log(responseData);
+      });
+   
+  }
 
 }
