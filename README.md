@@ -23,7 +23,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Demo
-You can see the demo of the examples in [Stackblitz](https://stackblitz.com/github.com/MonaliSorathiya/Angular-HTTP-requests-with-Firebase).
+You can see the demo of the examples in [Stackblitz](https://stackblitz.com/github/tensult/Sending-a-POST-Request-with-Firebase).
 
 ## Further help
 
